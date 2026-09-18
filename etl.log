@@ -1,0 +1,6 @@
+2026-09-18 09:28:25,099 - INFO - ETL Pipeline started
+2026-09-18 09:28:25,099 - ERROR - ETL Pipeline failed: module 'pathlib' has no attribute 'read_csv'
+2026-09-18 09:34:42,610 - INFO - ETL Pipeline started
+2026-09-18 09:34:42,611 - ERROR - ETL Pipeline failed: module 'pandas' has no attribute 'read_csv'
+2026-09-18 09:35:12,121 - INFO - ETL Pipeline started
+2026-09-18 09:35:12,122 - ERROR - ETL Pipeline failed: module 'pandas' has no attribute 'read_csv'

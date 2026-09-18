@@ -1,0 +1,32 @@
+{
+    "input": {
+        "file": "data.csv"
+    },
+
+    "output": {
+        "raw": "output/raw.csv",
+        "transformed": "output/transformed.csv",
+        "final": "output/final.csv"
+    },
+
+    "transformations": {
+        "uppercase_name": true,
+        "calculate_total": true,
+        "minimum_total": 1000
+    },
+
+    "validation": {
+        "required_columns": [
+            "id",
+            "name",
+            "quantity",
+            "price",
+            "city"
+        ],
+        "allow_nulls": false
+    },
+
+    "logging": {
+        "file": "logs/etl.log"
+    }
+}
